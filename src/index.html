@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ToDo List</h1>
+    </header>
+
+    <form>
+        <label>Новое задание</label>
+        <input id="inputValue" type="text">
+    </form>
+
+    <div class="buttons">
+        <button id="inputButton">Добавить</button>
+        <button id="saveButton">Сохранить</button>
+        <input type="file" id="loadButton" accept=".json">
+    </div>
+
+    <div class="taskContainer">
+        <div id="incompleteTasks" class="taskColumn">
+            <h3>Невыполненные задачи</h3>
+        </div>
+        <div id="completedTasks" class="taskColumn">
+            <h3>Выполненные задачи</h3>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>

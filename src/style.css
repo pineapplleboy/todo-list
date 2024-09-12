@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.taskColumn {
+    width: 45%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.taskBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.taskText, .editInput {
+    font-size: 16px;
+    margin: 0;
+    flex-grow: 1;
+    word-break: break-all;
+    padding-right: 10px;
+}
+
+.taskText {
+    font-size: 16px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.taskCheckbox {
+    margin-right: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="file"] {
+    margin-top: 20px;
+}
